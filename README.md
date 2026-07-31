@@ -20,10 +20,6 @@
   <a href="https://nodewarden.app">Official wiki</a>
 </p>
 
-> **Disclaimer**  
-> This project is for learning and discussion purposes only. Please back up your vault regularly.  
-> This project is not affiliated with Bitwarden. Please do not report NodeWarden issues to the official Bitwarden team.
-
 ---
 
 ## Feature comparison with the official Bitwarden server
@@ -100,49 +96,23 @@
 git clone https://github.com/shuaiplus/NodeWarden.git
 cd NodeWarden
 
-npm install
-npx wrangler login
+bun install
+bunx wrangler login
 
 # Default: R2 mode
-npm run deploy
+bun run deploy
 
 # Optional: KV mode
-npm run deploy:kv
+bun run deploy:kv
 
 # Local development
-npm run dev
-npm run dev:kv
+bun run dev
+bun run dev:kv
 ```
 
----
-
-
-## License
-
-LGPL-3.0 License
-
----
 
 ## Credits
 
 - [Bitwarden](https://bitwarden.com/) - Original design and clients
 - [Vaultwarden](https://github.com/dani-garcia/vaultwarden) - Server implementation reference
 - [Cloudflare Workers](https://workers.cloudflare.com/) - Serverless platform
-
----
-
-## Contributors
-
-<a href="https://github.com/shuaiplus/nodewarden/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=shuaiplus/nodewarden" alt="NodeWarden contributors" />
-</a>
-
-## Star History
-
-<a href="https://www.star-history.com/?repos=shuaiplus%2FNodeWarden&type=timeline&legend=top-left">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=shuaiplus/NodeWarden&type=timeline&theme=dark&legend=top-left&sealed_token=ck0AMqR8EFMjJ6tMbnGDHT5QwMpO85IUuN7i8e82zRRNPtjoLsAAFwVzxmSZwaid97wLUwy56EEiVE9M-OY0cf16bQKBrU9GaauFoOFXGq-vMqcOyk0tIc4b3o1ZGfDw9IH8o6NUxC125TJkjKSLn9fxhFUUeNr1f1El0UcAUcjsMPl_LX80qQrlvQqp" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=shuaiplus/NodeWarden&type=timeline&legend=top-left&sealed_token=ck0AMqR8EFMjJ6tMbnGDHT5QwMpO85IUuN7i8e82zRRNPtjoLsAAFwVzxmSZwaid97wLUwy56EEiVE9M-OY0cf16bQKBrU9GaauFoOFXGq-vMqcOyk0tIc4b3o1ZGfDw9IH8o6NUxC125TJkjKSLn9fxhFUUeNr1f1El0UcAUcjsMPl_LX80qQrlvQqp" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=shuaiplus/NodeWarden&type=timeline&legend=top-left&sealed_token=ck0AMqR8EFMjJ6tMbnGDHT5QwMpO85IUuN7i8e82zRRNPtjoLsAAFwVzxmSZwaid97wLUwy56EEiVE9M-OY0cf16bQKBrU9GaauFoOFXGq-vMqcOyk0tIc4b3o1ZGfDw9IH8o6NUxC125TJkjKSLn9fxhFUUeNr1f1El0UcAUcjsMPl_LX80qQrlvQqp" />
- </picture>
-</a>
