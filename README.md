@@ -13,10 +13,6 @@
 
 </p>
 
-<p align="center">
-  <a href="https://t.me/NodeWarden_News">Telegram Channel</a> |
-  <a href="https://t.me/NodeWarden_Official">Telegram Group</a>
-</p>
 
 <p align="center">
   <a href="./README_ZH.md">中文</a> |
