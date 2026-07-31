@@ -28,9 +28,9 @@ export default function StandalonePageFrame(props: StandalonePageFrameProps) {
       </div>
 
       <div className="standalone-footer">
-        <a href="https://github.com/shuaiplus/NodeWarden" target="_blank" rel="noreferrer">NodeWarden Repository</a>
+        <a href="https://github.com/shuaiplus/NodeWarden" target="_blank" rel="noreferrer">NodeWarden Repo</a>
         <span> | </span>
-        <a href="https://github.com/shuaiplus" target="_blank" rel="noreferrer">Owner: @johnnyvv</a>
+        <a href="https://github.com/johnny-official" target="_blank" rel="noreferrer">Owner: @johnny-official</a>
         <span> | </span>
         <a
           href="https://github.com/shuaiplus/NodeWarden/releases/latest"
